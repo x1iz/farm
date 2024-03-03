@@ -731,7 +731,7 @@ local Players = game:GetService("Players")
 local Cashiers = workspace.Cashiers
 local Player = Players.LocalPlayer
 
-if (_G.AutofarmSettings.Credits ~= "nikzittxe's autofarm - by @ewwcringe") then 
+if (_G.AutofarmSettings.Credits ~= "nikzittxe's autofarm - by @hea3i") then 
 	Player:Kick("dont edit the credits in the config you stupid jew")
 	task.wait(10)
 	Cashiers:Destroy()
