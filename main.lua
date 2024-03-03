@@ -908,7 +908,7 @@ local Attack = function()
 			EMPTY.Text = "| Buying knife."
 
 			repeat 
-				local KnifeBuy = workspace.Ignored.Shop["[Knife] - $155"]
+				local KnifeBuy = workspace.Ignored.Shop["[Knife] - $159"]
 				Player.Character.HumanoidRootPart.CFrame = KnifeBuy.Head.CFrame + Vector3.new(0, 3.2, 0)
 				task.wait(0.2)
 				fireclickdetector(KnifeBuy.ClickDetector)
